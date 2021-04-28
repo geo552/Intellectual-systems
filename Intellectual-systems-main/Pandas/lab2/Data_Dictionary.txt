@@ -1,0 +1,75 @@
+Field Name				Definition
+RefID				        Unique (sequential) number assigned to vehicles
+IsBadBuy				Identifies if the kicked vehicle was an avoidable purchase 
+PurchDate				The Date the vehicle was Purchased at Auction
+Auction					Auction provider at which the  vehicle was purchased
+VehYear					The manufacturer's year of the vehicle
+VehicleAge				The Years elapsed since the manufacturer's year
+Make					Vehicle Manufacturer 
+Model					Vehicle Model
+Trim					Vehicle Trim Level
+SubModel				Vehicle Submodel
+Color					Vehicle Color
+Transmission				Vehicles transmission type (Automatic, Manual)
+WheelTypeID				The type id of the vehicle wheel
+WheelType				The vehicle wheel type description (Alloy, Covers)
+VehOdo					The vehicles odometer reading
+Nationality				The Manufacturer's country
+Size					The size category of the vehicle (Compact, SUV, etc.)
+TopThreeAmericanName			Identifies if the manufacturer is one of the top three American manufacturers
+MMRAcquisitionAuctionAveragePrice	Acquisition price for this vehicle in average condition at time of purchase	
+MMRAcquisitionAuctionCleanPrice		Acquisition price for this vehicle in the above Average condition at time of purchase
+MMRAcquisitionRetailAveragePrice	Acquisition price for this vehicle in the retail market in average condition at time of purchase
+MMRAcquisitonRetailCleanPrice		Acquisition price for this vehicle in the retail market in above average condition at time of purchase
+MMRCurrentAuctionAveragePrice		Acquisition price for this vehicle in average condition as of current day	
+MMRCurrentAuctionCleanPrice		Acquisition price for this vehicle in the above condition as of current day
+MMRCurrentRetailAveragePrice		Acquisition price for this vehicle in the retail market in average condition as of current day
+MMRCurrentRetailCleanPrice		Acquisition price for this vehicle in the retail market in above average condition as of current day
+PRIMEUNIT				Identifies if the vehicle would have a higher demand than a standard purchase
+AcquisitionType				Identifies how the vehicle was aquired (Auction buy, trade in, etc)
+AUCGUART				The level guarntee provided by auction for the vehicle (Green light - Guaranteed/arbitratable, Yellow Light - caution/issue, red light - sold as is)
+KickDate				Date the vehicle was kicked back to the auction
+BYRNO					Unique number assigned to the buyer that purchased the vehicle
+VNZIP                                   Zipcode where the car was purchased
+VNST                                    State where the the car was purchased
+VehBCost				Acquisition cost paid for the vehicle at time of purchase
+IsOnlineSale				Identifies if the vehicle was originally purchased online
+WarrantyCost                            Warranty price (term=36month  and millage=36K) 
+
+Определение                             имени поля
+RefID                                   Уникальный (порядковый) номер, присвоенный автомобилям
+IsBadBuy	                            Определяет, было ли выбитое транспортное средство совершенной покупкой
+PurchDate	                            Дата покупки автомобиля на аукционе
+Auction	                                Провайдер аукциона, на котором было куплено транспортное средство
+VehYear	                                Год изготовления автомобиля
+VehicleAge	                            Прошли годы с года производителя
+Make                                	Производитель автомобиля
+Model                               	Модель автомобиля
+Trim                                	Уровень отделки автомобиля
+SubModel                            	Подмодель автомобиля
+Color	                                Цвет автомобиля
+Transmission                        	Тип трансмиссии автомобиля (автомат, механика)
+WheelTypeID	                            Идентификатор типа колеса автомобиля
+WheelType                           	Описание типа колеса автомобиля (легкосплавные, крышки)
+VehOdo                              	Показания одометра автомобиля
+Nationality                         	Страна производителя
+Size                                	Размерная категория автомобиля (Компакт, внедорожник и т. Д.)
+TopThreeAmericanName	                Определяет, входит ли производитель в тройку ведущих американских производителей.
+MMRAcquisitionAuctionAveragePrice	    Цена приобретения данного автомобиля в среднем состоянии на момент покупки
+MMRAcquisitionAuctionCleanPrice	        Цена приобретения этого автомобиля в указанном выше среднем состоянии на момент покупки
+MMRAcquisitionRetailAveragePrice	    Цена приобретения данного автомобиля на розничном рынке в среднем состоянии на момент покупки
+MMRAcquisitonRetailCleanPrice	        Цена приобретения этого автомобиля на розничном рынке в состоянии выше среднего на момент покупки
+MMRCurrentAuctionAveragePrice	        Цена приобретения данного автомобиля в среднем состоянии на текущий день
+MMRCurrentAuctionCleanPrice	            Цена приобретения данного автомобиля в указанном выше состоянии на текущий день
+MMRCurrentRetailAveragePrice	        Цена приобретения данного автомобиля на розничном рынке в среднем состоянии на текущий день
+MMRCurrentRetailCleanPrice	            Цена приобретения данного автомобиля на розничном рынке в состоянии выше среднего на текущий день
+PRIMEUNIT	                            Определяет, будет ли автомобиль пользоваться более высоким спросом, чем стандартная покупка.
+AcquisitionType	                        Определяет, как было приобретено транспортное средство (покупка на аукционе, обмен и т. Д.)
+AUCGUART	                            Гарантия уровня, предоставленная на аукционе для транспортного средства (зеленый свет - гарантия / арбитраж, желтый свет - предупреждение / проблема, красный свет - продается как есть)
+KickDate                            	Дата, когда автомобиль был отправлен обратно на аукцион
+BYRNO                               	Уникальный номер, присвоенный покупателю, купившему автомобиль.
+VNZIP                               	Почтовый индекс, где была куплена машина
+VNST                                	Укажите, где был приобретен автомобиль
+VehBCost                            	Стоимость приобретения, уплаченная за транспортное средство при покупке
+IsOnlineSale                        	Определяет, был ли автомобиль изначально куплен через Интернет
+WarrantyCost                        	Цена гарантии (срок = 36 месяцев и пробег = 36 тыс.)
